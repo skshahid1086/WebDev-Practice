@@ -139,3 +139,23 @@ a{
     transform: scale(1.1); 
     
 }
+
+@media (max-width:1044px){
+    .card_container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        justify-items: center;
+    }
+}
+
+@media (max-width:610px){
+    .card_container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+        justify-items: center;
+        margin-top: 30px;
+    }
+}
+    

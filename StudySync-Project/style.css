@@ -274,11 +274,19 @@ nav{
 
     .h-con-right img{
         height: 100%;
-        width: 90%;
+        width: 100%;
     }
 }
 
-@media (max-width:525px){
+@media (max-width:390px){
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20rem;
+        
+    }
 
     .h-con-left{
         height: 100%;
@@ -287,20 +295,11 @@ nav{
         margin-bottom: 14rem;
     }
 
-    .h-con-right{
-        display: flex;
-        justify-content: center;
         
     }
     
-    /* .h-con-right img{
-        width:57vw;
-        height: 10px;
-    } */
-
     .h-con-rignt img{
         height: 100%;
-        width: 90%;
+        width: 100%;
         margin: 0px auto
     }
-}

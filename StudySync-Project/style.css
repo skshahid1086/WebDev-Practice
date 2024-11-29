@@ -166,8 +166,8 @@ nav{
 }
 
 .h-con-right{
-    height: 800px;
-    width: 50%;
+    height: 500px;
+    width: 40vw;
 }
 
 .h-con-rignt img{
@@ -279,7 +279,6 @@ nav{
 }
 
 @media (max-width:390px){
-
     .hero-section{
         display: flex;
         flex-direction: column;
@@ -296,10 +295,9 @@ nav{
     }
 
         
-    }
-    
-    .h-con-rignt img{
+    .h-con-right img{
         height: 100%;
         width: 100%;
         margin: 0px auto
     }
+}

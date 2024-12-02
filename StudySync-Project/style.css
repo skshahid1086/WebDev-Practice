@@ -248,6 +248,7 @@ nav{
         
     }
 
+
 }
 
 @media (max-width:632px) {
@@ -341,3 +342,98 @@ nav{
     font-weight: 600;
 }
 
+.card-section{
+    width: 100%;
+    height: 130vh;
+    background-color: var(--light-gray);
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.card-para-cont{
+    height: 10em;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.card-para-cont p{
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.card-box-cont{
+    height: 43em;
+    width: 42em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    place-items: center;
+}
+
+.card{
+    height: 12em;
+    width: 18em;
+    border-radius:0.625rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: var(--background-color);
+    padding: 0.5em;
+}
+
+.card p{
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+
+}
+
+.icon-cont{
+    height: 2.7em;
+    width: 2.7em;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img{
+    height: 1.2em;
+}
+
+.card:nth-child(1){
+    background-color: #4a90e2;
+}
+
+.card:nth-child(2){
+    background-color: #FF6289;
+}
+
+.card:nth-child(3){
+    background-color: #fcbf58;
+}
+
+.card:nth-child(4){
+    background-color: #44bfc3;
+}
+
+.card:nth-child(5){
+    background-color: #77b05d;
+}
+
+.card:nth-child(6){
+    background-color: #7d78b1;
+}

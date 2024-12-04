@@ -515,3 +515,86 @@ nav{
     font-weight: 600;
 
 }
+
+.news-container{
+    height: 25em;
+    width: 100%;
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.news-box{
+    height: 80%;
+    width: 85%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2em;
+    background-color: var(--light-gray);
+    border-radius: 0.425em;
+}
+
+.news-img{
+    height: 100%;
+    width: 50%;
+}
+.news-img img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 0.425em;;
+    border-bottom-left-radius: 0.425em;;
+}
+
+.news-signup{
+    display: flex;
+    flex-direction: column;
+}
+
+.update-para{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 3rem;
+}
+.news-signup span{
+    font-size: smaller;
+    color: var(--gray);
+    font-weight: 600;
+}
+.email-box{
+    height: 2.4em;
+    padding-left: 1.3em;
+    border: 0.5px solid gray;
+    border-radius: 0.425em;
+}
+
+.email-box:focus {
+
+    outline: none;
+  }
+
+.news-sign-btn{
+    height: 2.8em;
+    width: 5em;
+    border-radius: 0.425em;
+    border: 0.5px solid gray;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.terms-para{
+    font-size: smaller;
+    color: var(--gray);
+}
+
+.email{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.news-signup a{
+    color: var(--link-color);
+    text-decoration: underline;
+}

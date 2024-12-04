@@ -598,3 +598,77 @@ nav{
     color: var(--link-color);
     text-decoration: underline;
 }
+
+.footer-container{
+    width: 100%;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box-up{
+    width: 85%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    width: 20em;
+    gap: 1.3em;
+}
+.studysync{
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+}
+.studysync img{
+    height: 1.5em;
+}
+
+
+.study-para{
+    width: 20em;
+    color: var(--gray);
+    font-weight: 600
+}
+
+.social-box{
+    display: flex;
+    gap: 0.9em;
+}
+
+.rignt-box{
+    height: 20em;
+    width: 90%;
+    margin-left: 7em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5em;
+}
+.rignt-box ul{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    list-style-type: none;
+    color: var(--gray);
+    font-weight: 600;
+    font-size: small;
+}
+
+.footer-sec{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+}
+.copyright-box{
+    height: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: var(--gray);
+    font-weight: 600;
+}
